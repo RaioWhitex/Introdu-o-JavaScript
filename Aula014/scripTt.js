@@ -38,6 +38,6 @@ console.log(redesocial.outrasredes.Youtube)
 let RH = {
     nome: "Gustavo S.S",
     idade: "18",
-    cursando:
-
+    cursando: "Analise e Desenvolvimento de Sistemas",
+    qual
 }
