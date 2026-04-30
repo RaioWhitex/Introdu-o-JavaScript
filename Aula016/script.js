@@ -1,0 +1,42 @@
+const divListaAluno = document.querySelector("#lista_aluno")
+let alunos = [
+    { nome: "Gustavo", idade: "18" },
+    { nome: "Julia", idade: "18" },
+    { nome: "Fabricio", idade: "24" },
+    { nome: "João", idade: "40" },
+    { nome: "José", idade: "16" },
+    { nome: "Ana", idade: "19" },
+    { nome: "Carlos", idade: "22" },
+    { nome: "Mariana", idade: "21" },
+    { nome: "Pedro", idade: "25" },
+    { nome: "Lucas", idade: "20" },
+    { nome: "Fernanda", idade: "23" },
+    { nome: "Rafael", idade: "27" },
+    { nome: "Beatriz", idade: "26" },
+    { nome: "Ricardo", idade: "28" },
+    { nome: "Patricia", idade: "29" },
+    { nome: "André", idade: "30" },
+    { nome: "Camila", idade: "17" },
+    { nome: "Bruno", idade: "31" },
+    { nome: "Larissa", idade: "32" },
+    { nome: "Felipe", idade: "33" },
+    { nome: "Juliana", idade: "34" },
+    { nome: "Vinicius", idade: "35" },
+    { nome: "Tatiane", idade: "36" },
+    { nome: "Eduardo", idade: "37" },
+    { nome: "Aline", idade: "38" },
+    { nome: "Diego", idade: "39" },
+    { nome: "Vanessa", idade: "41" },
+    { nome: "Rodrigo", idade: "42" },
+    { nome: "Simone", idade: "43" },
+    { nome: "Leandro", idade: "44" },
+    { nome: "Carla", idade: "45" },
+    { nome: "Paulo", idade: "46" },
+    { nome: "Renata", idade: "47" },
+    { nome: "Marcelo", idade: "48" },
+    { nome: "Daniela", idade: "49" },
+];
+
+for(let i = 0; i < alunos.length; i++) {
+    divListaAluno.innerHTML += `<li>${alunos[i].nome}, ${alunos[i].idade} anos</li>`
+}
